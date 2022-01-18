@@ -1,0 +1,135 @@
+body{
+    background-image: url(bg.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+.animacion{
+    animation: kerce 0.8s ease-in-out;
+}
+
+#div1{
+    background-image: url(spongebob.png);
+    background-size: 100% 100%;
+    width: 110px; 
+    height: 170px; 
+    position: absolute; 
+    top: 45%; 
+    left: 25%;
+}
+#div2{
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    background-image: linear-gradient(180deg, red, black);
+    position: absolute; 
+    top: 58%; 
+    right: 2%;
+    background-color: red;
+}
+.sillet{
+    animation: sillet 1s infinite ease;
+}
+.pengesa{
+    animation: penges 4s infinite ease-in-out;
+}
+.pengesaMedium{
+    animation: penges 3s infinite ease-in-out;
+}
+.pengesaHard{
+    animation: penges 2s infinite ease-in-out;
+}
+
+@keyframes sillet {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes kerce {
+    0%{
+        top: 45%;
+    }
+    20%{
+        top: 30%;
+    }
+    40%{
+        top: 20%;
+    }
+    60%{
+        top: 20%;
+    }
+    80%{
+        top: 30%;
+    }
+    100%{
+        top: 45%;
+    }
+}
+@keyframes penges {
+    0%{
+        right: 0%;
+    }
+    5%{
+        right: 5%;
+    }
+    10%{
+        right: 10%;
+    }
+    15%{
+        right: 15%;
+    }
+    20%{
+        right: 20%;
+    }
+    25%{
+        right: 25%;
+    }
+    30%{
+        right: 30%;
+    }
+    35%{
+        right: 35%;
+    }
+    40%{
+        right: 40%;
+    }
+    45%{
+        right: 45%;
+    }
+    50%{
+        right: 50%;
+    }
+    55%{
+        right: 55%;
+    }
+    60%{
+        right: 60%;
+    }
+    65%{
+        right: 65%;
+    }
+    70%{
+        right: 70%;
+    }
+    75%{
+        right: 75%;
+    }
+    80%{
+        right: 80%;
+    }
+    85%{
+        right: 85%;
+    }
+    90%{
+        right: 93%;
+    }
+    95%{
+        right: 98%;
+    }
+    100%{
+        right: 102%;
+    }
+}
